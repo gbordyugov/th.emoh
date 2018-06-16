@@ -96,7 +96,7 @@ left join
 on a.anonymous_user_id = ba.anonymous_user_id;
 
 --
--- this is a more simply-minded solution that just counts the unique
+-- this is a more simple--minded solution that just counts the unique
 -- user_ids in all three tables
 -- 
 
