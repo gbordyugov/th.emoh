@@ -20,9 +20,10 @@ need adjustment is the paths to the csv files in the COPY statements
 in the SQL code.
 
 In the test case uploaded, there are 10000 attributions, 5000 user
-register events (not of them unique, your mileage may vary depending
-on the result of the random sampling with replacement from them) and
-1000 bank account events (a smaller number of unique events too).
+register events (not all of them are from unique users, your mileage
+may vary depending on the result of the random sampling with
+replacement from them) and 1000 bank account events (a smaller number
+of unique events too).
 
 ## Case 2
 
