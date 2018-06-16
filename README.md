@@ -57,7 +57,11 @@ Another advantage of Google Analytics would that that it exports most
 of the data into the designated tables on Google BigQuery, which can
 be queried using user-defined SQL queries (supplied either from their
 front end client or public API), thus allowing for virtually unlimited
-additional analytics logic.
+additional analytics logic. Additionally, the users of Google
+Analytics can create their own auxiliary tables using the BigQuery
+infrastructure and use them in parallel to the GA export tables, thus
+allowing performing all analytics in the cloud without the need of
+downloading the data.
 
 Note on anonymous users: Google Analytics (and probably many other
 tracking systems) has its own user tracking system, based on cookies.
